@@ -28,6 +28,9 @@ import GRIN.Pipeline
 import GRIN.Name
 import GRIN.GrinM
 
+import Idris.Syntax
+
+
 ShowB GName where
     showB = showB @{FromShow}
 
@@ -39,12 +42,13 @@ data PostPipeline
 compileExpr :
     PostPipeline ->
     Ref Ctxt Defs ->
+    Ref Syn SyntaxInfo ->
     (tmpDir : String) ->
     (outDir : String) ->
     ClosedTerm ->
     (outFile : String) ->
     Core (Maybe String)
-compileExpr post d tmpDir outDir term outFile = do
+compileExpr post d unused tmpDir outDir term outFile = do
 
     let appDir = outDir </> outFile ++ "_app"
         mkGrinFile = \f => appDir </> f <.> "grin"
@@ -130,15 +134,17 @@ compileExpr post d tmpDir outDir term outFile = do
 
 executeExpr :
     Ref Ctxt Defs ->
+    Ref Syn SyntaxInfo ->
     (tmpDir : String) ->
     ClosedTerm -> Core ()
-executeExpr d tmpDir term = do
+executeExpr d unused tmpDir term = do
     addDirective "grin" "logging"
     ds <- getDirectives (Other "grin")
     if elem "stats" ds
-        then ignore $ compileExpr EvalWithStats d tmpDir tmpDir term "execute"
-        else ignore $ compileExpr Eval d tmpDir tmpDir term "execute"
+        then ignore $ compileExpr EvalWithStats d unused tmpDir tmpDir term "execute"
+        else ignore $ compileExpr Eval d unused tmpDir tmpDir term "execute"
 
 export
 grin : Codegen
+--grin = MkCG ?hole executeExpr Nothing Nothing 
 grin = MkCG (compileExpr SaveLLVM) executeExpr Nothing Nothing
