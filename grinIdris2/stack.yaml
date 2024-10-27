@@ -17,7 +17,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-14.16
+resolver: lts-22.39
 
 allow-newer: true
 
@@ -42,19 +42,30 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
 extra-deps:
-- functor-infix-0.0.5@sha256:cea21a321031f556d7a21b51e049493e7cb78baf64dd63f0d1a36de01c4c735b,661
+
 - llvm-hs-pretty-0.6.1.0
-- monad-gen-0.3.0.1@sha256:a2569465cfbd468d3350ef25de56b3362580e77537224313aab1210f40804a3b,821
-- set-extra-1.4.1@sha256:c58aa620704f609f289953e7c1f9c1653fd1498f0984b0f03a3f8f38f7ed5a84,533
+#- monad-gen-0.3.0.1@sha256:a2569465cfbd468d3350ef25de56b3362580e77537224313aab1210f40804a3b,821
+#- set-extra-1.4.1@sha256:c58aa620704f609f289953e7c1f9c1653fd1498f0984b0f03a3f8f38f7ed5a84,533
+- llvm-hs-pure-9.0.0
+- set-extra-1.4.2
+
+
 - github: grin-compiler/grin
-  commit: 4b68b848838d289573b59fae2272e6971fddb99f
+  commit: 483112f170afdc07833aad86da4e44d0d05c6b68
   subdirs:
   - grin
+
+- github: csabahruska/functor-infix
+  commit: 5f91376b93a4f82624ae9416de3fd7597d428564
+
 - github: csabahruska/llvm-hs
   commit: 868e23a13942703255979369defdb49ac57b6866
   subdirs:
   - llvm-hs
-  - llvm-hs-pure
+ # - llvm-hs-pure
+  
+- github: GunpowderGuy/monad-gen
+  commit: 0d16c6ec45adf84f4ac03d4feae82bec39357a67
 
 # Override default flag values for local packages and extra-deps
 flags:
