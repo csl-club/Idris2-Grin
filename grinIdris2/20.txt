@@ -1,0 +1,178 @@
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.2.2.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs-pure (>=7 && <8) and using llvm-hs-pure-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs (>=7 && <8) and using llvm-hs-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.2.2.
+         Reason: allow-newer enabled.
+llvm-hs             > configure
+llvm-hs-pretty      > configure
+llvm-hs             > [1 of 2] Compiling Main             ( /tmp/stack-6b35ab844c18f991/llvm-hs-16.0.0/Setup.hs, /tmp/stack-6b35ab844c18f991/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/setup/Main.o )
+llvm-hs             > [2 of 2] Compiling StackSetupShim   ( /home/diego/.stack/setup-exe-src/setup-shim-DY68M0FN.hs, /tmp/stack-6b35ab844c18f991/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/setup/StackSetupShim.o )
+llvm-hs-pretty      > Configuring llvm-hs-pretty-0.6.1.0...
+llvm-hs             > Linking /tmp/stack-6b35ab844c18f991/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/setup/setup ...
+llvm-hs-pretty      > build with ghc-9.2.7
+llvm-hs-pretty      > Preprocessing library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty      > Building library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty      > [1 of 2] Compiling LLVM.Pretty
+llvm-hs-pretty      > 
+llvm-hs-pretty      > /tmp/stack-6b35ab844c18f991/llvm-hs-pretty-0.6.1.0/src/LLVM/Pretty.hs:479:7: error:
+llvm-hs-pretty      >     Found a binding for the ‘@’ operator in a pattern position.
+llvm-hs-pretty      >     Perhaps you meant an as-pattern, which must not be surrounded by whitespace
+llvm-hs-pretty      >     |
+llvm-hs-pretty      > 479 |     e @ Invoke {..} ->
+llvm-hs-pretty      >     |       ^
+inline-c            > configure                                          
+microlens-platform  > configure                                          
+quickcheck-instances> configure                                          
+inline-c            > Configuring inline-c-0.9.1.7...                    
+microlens-platform  > Configuring microlens-platform-0.4.2.1...          
+quickcheck-instances> Configuring quickcheck-instances-0.3.29.1...       
+inline-c            > build with ghc-9.2.7                               
+microlens-platform  > build with ghc-9.2.7                               
+quickcheck-instances> build with ghc-9.2.7                               
+inline-c            > Preprocessing library for inline-c-0.9.1.7..       
+inline-c            > Building library for inline-c-0.9.1.7..            
+microlens-platform  > Preprocessing library for microlens-platform-0.4.2.1..
+microlens-platform  > Building library for microlens-platform-0.4.2.1..  
+quickcheck-instances> Preprocessing library for quickcheck-instances-0.3.29.1..
+quickcheck-instances> Building library for quickcheck-instances-0.3.29.1..
+microlens-platform  > [1 of 2] Compiling Lens.Micro.Platform.Internal    
+inline-c            > [1 of 9] Compiling Language.C.Inline.FunPtr        
+quickcheck-instances> [ 1 of 26] Compiling Test.QuickCheck.Instances.Containers
+quickcheck-instances> [ 2 of 26] Compiling Test.QuickCheck.Instances.CustomPrelude
+quickcheck-instances> [ 3 of 26] Compiling Test.QuickCheck.Instances.CaseInsensitive
+inline-c            > [2 of 9] Compiling Language.C.Types.Parse          
+microlens-platform  > [2 of 2] Compiling Lens.Micro.Platform             
+quickcheck-instances> [ 4 of 26] Compiling Test.QuickCheck.Instances.ByteString
+quickcheck-instances> [ 5 of 26] Compiling Test.QuickCheck.Instances.Array
+inline-c            >                                                    
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Types/Parse.hs:96:1: warning: [-Wunused-imports]
+inline-c            >     The import of ‘Data.Monoid’ is redundant       
+inline-c            >       except perhaps to import instances from ‘Data.Monoid’
+inline-c            >     To import instances alone, use: import Data.Monoid()
+inline-c            >    |                                               
+inline-c            > 96 | import           Data.Monoid ((<>))           
+inline-c            >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^           
+quickcheck-instances> [ 6 of 26] Compiling Test.QuickCheck.Instances.DataFix
+quickcheck-instances> [ 7 of 26] Compiling Test.QuickCheck.Instances.Hashable
+quickcheck-instances> [ 8 of 26] Compiling Test.QuickCheck.Instances.Natural
+quickcheck-instances> [ 9 of 26] Compiling Test.QuickCheck.Instances.OldTime
+quickcheck-instances> [10 of 26] Compiling Test.QuickCheck.Instances.Primitive
+quickcheck-instances> [11 of 26] Compiling Test.QuickCheck.Instances.Array.Byte
+quickcheck-instances> [12 of 26] Compiling Test.QuickCheck.Instances.Scientific
+quickcheck-instances> [13 of 26] Compiling Test.QuickCheck.Instances.Semigroup
+quickcheck-instances> [14 of 26] Compiling Test.QuickCheck.Instances.Solo
+quickcheck-instances> [15 of 26] Compiling Test.QuickCheck.Instances.Strict
+quickcheck-instances> [16 of 26] Compiling Test.QuickCheck.Instances.Tagged
+quickcheck-instances> [17 of 26] Compiling Test.QuickCheck.Instances.Text
+llvm-hs             > setup: The program 'llvm-config' version >=16.0 && <16.1 is required but it
+llvm-hs             > could not be found.                                
+llvm-hs             >                                                    
+quickcheck-instances> [18 of 26] Compiling Test.QuickCheck.Instances.Text.Short
+quickcheck-instances> [19 of 26] Compiling Test.QuickCheck.Instances.These
+quickcheck-instances> [20 of 26] Compiling Test.QuickCheck.Instances.Time
+quickcheck-instances> [21 of 26] Compiling Test.QuickCheck.Instances.Transformer
+quickcheck-instances> [22 of 26] Compiling Test.QuickCheck.Instances.UUID
+quickcheck-instances> [23 of 26] Compiling Test.QuickCheck.Instances.UnorderedContainers
+quickcheck-instances> [24 of 26] Compiling Test.QuickCheck.Instances.Vector
+quickcheck-instances> [25 of 26] Compiling Test.QuickCheck.Instances.Void
+quickcheck-instances> [26 of 26] Compiling Test.QuickCheck.Instances
+microlens-platform  > copy/register                             
+microlens-platform  > Installing library in /home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/lib/x86_64-linux-ghc-9.2.7/microlens-platform-0.4.2.1-LsM1da7jDhkLCFjoZkjNyX
+microlens-platform  > Registering library for microlens-platform-0.4.2.1..
+quickcheck-instances> copy/register                             
+quickcheck-instances> Installing library in /home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/lib/x86_64-linux-ghc-9.2.7/quickcheck-instances-0.3.29.1-GL0GZ66pbh0LI0H8n7s15o
+quickcheck-instances> Registering library for quickcheck-instances-0.3.29.1..
+inline-c            > [3 of 9] Compiling Language.C.Types
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Types.hs:75:1: warning: [-Wunused-imports]
+inline-c            >     The import of ‘Data.Semigroup’ is redundant
+inline-c            >       except perhaps to import instances from ‘Data.Semigroup’
+inline-c            >     To import instances alone, use: import Data.Semigroup()
+inline-c            >    |
+inline-c            > 75 | import           Data.Semigroup (Semigroup, (<>))
+inline-c            >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+inline-c            > [4 of 9] Compiling Language.C.Inline.HaskellIdentifier
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline/HaskellIdentifier.hs:25:1: warning: [-Wunused-imports]
+inline-c            >     The import of ‘Data.Monoid’ is redundant
+inline-c            >       except perhaps to import instances from ‘Data.Monoid’
+inline-c            >     To import instances alone, use: import Data.Monoid()
+inline-c            >    |
+inline-c            > 25 | import           Data.Monoid ((<>))
+inline-c            >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+inline-c            > [5 of 9] Compiling Language.C.Inline.Context
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline/Context.hs:75:1: warning: [-Wunused-imports]
+inline-c            >     The import of ‘Data.Semigroup’ is redundant
+inline-c            >       except perhaps to import instances from ‘Data.Semigroup’
+inline-c            >     To import instances alone, use: import Data.Semigroup()
+inline-c            >    |
+inline-c            > 75 | import           Data.Semigroup (Semigroup, (<>))
+inline-c            >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline/Context.hs:291:33: warning: [-Wname-shadowing]
+inline-c            >     This binding for ‘tuple’ shadows the existing binding
+inline-c            >       bound at src/Language/C/Inline/Context.hs:291:17
+inline-c            >     |
+inline-c            > 291 |             let tuple = foldl (\tuple arg -> TH.AppT tuple arg) (TH.PromotedTupleT (length other)) other
+inline-c            >     |                                 ^^^^^
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline/Context.hs:456:26: warning: [-Wstar-is-type]
+inline-c            >     Using ‘*’ (or its Unicode variant) to mean ‘Data.Kind.Type’
+inline-c            >     relies on the StarIsType extension, which will become
+inline-c            >     deprecated in the future.
+inline-c            >     Suggested fix: use ‘Type’ from ‘Data.Kind’ instead.
+inline-c            >     |
+inline-c            > 456 |   type VecCtxScalar a :: *
+inline-c            >     |                          ^
+inline-c            > [6 of 9] Compiling Language.C.Inline.Internal
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline/Internal.hs:73:36: warning: [-Wunused-imports]
+inline-c            >     The import of ‘unsafePerformIO’
+inline-c            >     from module ‘System.IO.Unsafe’ is redundant
+inline-c            >    |
+inline-c            > 73 | import           System.IO.Unsafe (unsafePerformIO, unsafeDupablePerformIO)
+inline-c            >    |                                    ^^^^^^^^^^^^^^^
+inline-c            > [7 of 9] Compiling Language.C.Inline.Unsafe
+inline-c            > [8 of 9] Compiling Language.C.Inline.Interruptible
+inline-c            > [9 of 9] Compiling Language.C.Inline
+inline-c            > 
+inline-c            > /tmp/stack-6b35ab844c18f991/inline-c-0.9.1.7/src/Language/C/Inline.hs:347:26: warning: [-Wstar-is-type]
+inline-c            >     Using ‘*’ (or its Unicode variant) to mean ‘Data.Kind.Type’
+inline-c            >     relies on the StarIsType extension, which will become
+inline-c            >     deprecated in the future.
+inline-c            >     Suggested fix: use ‘Type’ from ‘Data.Kind’ instead.
+inline-c            >     |
+inline-c            > 347 |   type WithPtrsPtrs a :: *
+inline-c            >     |                          ^
+inline-c            > copy/register
+inline-c            > Installing library in /home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/lib/x86_64-linux-ghc-9.2.7/inline-c-0.9.1.7-7M2xQipRuZCJ7WRcTMLYWB
+inline-c            > Registering library for inline-c-0.9.1.7..
+Progress 5/7          
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the following errors:
+       
+       [S-7011]
+       While building package llvm-hs-16.0.0 (scroll up to its section to see the error) using:
+       /tmp/stack-6b35ab844c18f991/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/setup/setup --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7 configure --with-ghc=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.2.7/bin/ghc-9.2.7 --with-ghc-pkg=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.2.7/bin/ghc-pkg-9.2.7 --user --package-db=clear --package-db=global --package-db=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/pkgdb --libdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/lib --bindir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/bin --datadir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/share --libexecdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/libexec --sysconfdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/etc --docdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/doc/llvm-hs-16.0.0 --htmldir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/doc/llvm-hs-16.0.0 --haddockdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/e0c56666900188afcbffc2c86f1f53dc11d27b954cdef453f29ffade9224f6fb/9.2.7/doc/llvm-hs-16.0.0 --dependency=Cabal=Cabal-3.6.3.0 --dependency=array=array-0.5.4.0 --dependency=attoparsec=attoparsec-0.14.4-Jg2DNZol4ow40I1tChhYQd --dependency=base=base-4.16.4.0 --dependency=bytestring=bytestring-0.11.4.0 --dependency=containers=containers-0.6.5.1 --dependency=exceptions=exceptions-0.10.4 --dependency=llvm-hs-pure=llvm-hs-pure-16.0.0-F6rgz83938eI6Qq1MHgN2p --dependency=mtl=mtl-2.2.2 --dependency=template-haskell=template-haskell-2.18.0.0 --dependency=transformers=transformers-0.5.6.2 --dependency=utf8-string=utf8-string-1.0.2-KOPUXETbFeRLoWT9IcwQzV --dependency=attoparsec:attoparsec-internal=attoparsec-0.14.4-Kq41zOIZ2VFHSdA7la3FYB-attoparsec-internal -f-debug -f-llvm-with-rtti --exact-configuration --ghc-option=-fhide-source-paths
+       Process exited with code: ExitFailure 1 
+       
+       [S-7011]
+       While building package llvm-hs-pretty-0.6.1.0 (scroll up to its section to see the error) using:
+       /home/diego/.stack/setup-exe-cache/x86_64-linux-tinfo6/Cabal-simple_DY68M0FN_3.6.3.0_ghc-9.2.7 --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7 build --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+

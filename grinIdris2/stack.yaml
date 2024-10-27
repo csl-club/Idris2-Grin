@@ -19,6 +19,8 @@
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 resolver: lts-22.39
 
+#resolver: lts-20.16
+
 allow-newer: true
 
 # User packages to be built.
@@ -46,7 +48,7 @@ extra-deps:
 - llvm-hs-pretty-0.6.1.0
 #- monad-gen-0.3.0.1@sha256:a2569465cfbd468d3350ef25de56b3362580e77537224313aab1210f40804a3b,821
 #- set-extra-1.4.1@sha256:c58aa620704f609f289953e7c1f9c1653fd1498f0984b0f03a3f8f38f7ed5a84,533
-- llvm-hs-pure-9.0.0
+#- llvm-hs-pure-9.0.0
 - set-extra-1.4.2
 
 
@@ -58,21 +60,22 @@ extra-deps:
 - github: csabahruska/functor-infix
   commit: 5f91376b93a4f82624ae9416de3fd7597d428564
 
-- github: csabahruska/llvm-hs
-  commit: 868e23a13942703255979369defdb49ac57b6866
+- github: noahmartinwilliams/llvm-hs
+  commit: 5a564c2f1feab7044f280d7f679afdf5efea63b8
   subdirs:
   - llvm-hs
- # - llvm-hs-pure
+  - llvm-hs-pure
+  branch: llvm-16
   
 - github: GunpowderGuy/monad-gen
   commit: 0d16c6ec45adf84f4ac03d4feae82bec39357a67
 
 # Override default flag values for local packages and extra-deps
-flags:
-  llvm-hs:
-    shared-llvm: true
-  grin:
-    with-llvm-hs: false
+#flags:
+#  llvm-hs:
+#    shared-llvm: true
+#  grin:
+#    with-llvm-hs: false
 
 # Extra package databases containing global packages
 # extra-package-dbs: []

@@ -1,0 +1,54 @@
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs-pure (>=7 && <8) and using llvm-hs-pure-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs (>=7 && <8) and using llvm-hs-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+llvm-hs       > configure
+llvm-hs-pretty> configure
+llvm-hs-pretty> Configuring llvm-hs-pretty-0.6.1.0...
+llvm-hs       > [1 of 3] Compiling Main             ( /tmp/stack-ef3cad69e10d7211/llvm-hs-16.0.0/Setup.hs, /tmp/stack-ef3cad69e10d7211/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/Main.o )
+llvm-hs       > [2 of 3] Compiling StackSetupShim   ( /home/diego/.stack/setup-exe-src/setup-shim-DY68M0FN.hs, /tmp/stack-ef3cad69e10d7211/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/StackSetupShim.o )
+llvm-hs       > [3 of 3] Linking /tmp/stack-ef3cad69e10d7211/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup
+llvm-hs-pretty> build with ghc-9.6.6
+llvm-hs-pretty> Preprocessing library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty> Building library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty> [1 of 2] Compiling LLVM.Pretty
+llvm-hs-pretty> 
+llvm-hs-pretty> /tmp/stack-ef3cad69e10d7211/llvm-hs-pretty-0.6.1.0/src/LLVM/Pretty.hs:479:7: error: [GHC-08382]
+llvm-hs-pretty> [2 of 2] Compiling LLVM.Token
+llvm-hs-pretty>     Found a binding for the ‘@’ operator in a pattern position.
+llvm-hs-pretty>     Perhaps you meant an as-pattern, which must not be surrounded by whitespace
+llvm-hs-pretty>     |
+llvm-hs-pretty> 479 |     e @ Invoke {..} ->
+llvm-hs-pretty>     |       ^
+llvm-hs       > Error: setup: The program 'llvm-config' version >=16.0 && <16.1 is required
+llvm-hs       > but it could not be found.
+llvm-hs       >      
+Progress 2/4         
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the following errors:
+       
+       [S-7011]
+       While building package llvm-hs-16.0.0 (scroll up to its section to see the error) using:
+       /tmp/stack-ef3cad69e10d7211/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 configure --with-ghc=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-9.6.6 --with-ghc-pkg=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-pkg-9.6.6 --user --package-db=clear --package-db=global --package-db=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/pkgdb --libdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/lib --bindir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/bin --datadir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/share --libexecdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/libexec --sysconfdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/etc --docdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --htmldir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --haddockdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --dependency=Cabal=Cabal-3.10.3.0 --dependency=array=array-0.5.6.0 --dependency=attoparsec=attoparsec-0.14.4-Jtt09WeE83cJSoCxdHYrks --dependency=base=base-4.18.2.1 --dependency=bytestring=bytestring-0.11.5.3 --dependency=containers=containers-0.6.7 --dependency=exceptions=exceptions-0.10.7 --dependency=llvm-hs-pure=llvm-hs-pure-16.0.0-CeEZj8ZO7xWJkX3Ko5mmUy --dependency=mtl=mtl-2.3.1 --dependency=template-haskell=template-haskell-2.20.0.0 --dependency=transformers=transformers-0.6.1.0 --dependency=utf8-string=utf8-string-1.0.2-4EKzqy1iFzL6FQeKmc9Leh --dependency=attoparsec:attoparsec-internal=attoparsec-0.14.4-8Z65lFE7ngAL1LPByCm0Jd-attoparsec-internal -f-debug -f-llvm-with-rtti --exact-configuration --ghc-option=-fhide-source-paths
+       Process exited with code: ExitFailure 1 
+       
+       [S-7011]
+       While building package llvm-hs-pretty-0.6.1.0 (scroll up to its section to see the error) using:
+       /home/diego/.stack/setup-exe-cache/x86_64-linux-tinfo6/Cabal-simple_DY68M0FN_3.10.3.0_ghc-9.6.6 --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 build --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+

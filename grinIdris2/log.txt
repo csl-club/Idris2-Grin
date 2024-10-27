@@ -1,0 +1,332 @@
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack clean
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-8664]
+       Invalid flag specification:
+       * Package llvm-hs does not define the following flags (specified in the project-level configuration (e.g. stack.yaml)): shared-llvm.
+         Flags defined by package llvm-hs are: debug and llvm-with-rtti.
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-8664]
+       Invalid flag specification:
+       * Package llvm-hs does not define the following flags (specified in the project-level configuration (e.g. stack.yaml)): shared-llvm.
+         Flags defined by package llvm-hs are: debug and llvm-with-rtti.
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs-pure (>=7 && <8) and using llvm-hs-pure-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs (>=7 && <8) and using llvm-hs-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+Diff                               > using precompiled package
+OneTuple                           > using precompiled package
+StateVar                           > using precompiled package
+assoc                              > using precompiled package
+base-orphans                       > using precompiled package
+bimap                              > using precompiled package
+cabal-doctest                      > using precompiled package              
+call-stack                         > using precompiled package              
+clock                              > using precompiled package             
+colour                             > using precompiled package              
+contravariant                      > using precompiled package               
+fail                               > using precompiled package               
+functor-infix                      > using precompiled package              
+HUnit                              > using precompiled package              
+extra                              > using precompiled package         
+ansi-terminal-types                > using precompiled package                       
+happy                              > using precompiled package                       
+haskell-lexer                      > using precompiled package                       
+hspec-discover                     > using precompiled package                                 
+indexed-traversable                > using precompiled package                                       
+hspec-expectations                 > using precompiled package                                                    
+integer-logarithms                 > using precompiled package                                                                 
+ansi-terminal                      > using precompiled package                                                                 
+libffi                             > using precompiled package                                                           
+logict                             > using precompiled package                                                    
+microlens                          > using precompiled package                                            
+monad-gen                          > using precompiled package                                  
+old-locale                         > using precompiled package                         
+os-string                          > using precompiled package                 
+parser-combinators                 > using precompiled package                         
+pretty-show                        > using precompiled package                         
+microlens-ghc                      > using precompiled package                                  
+prettyprinter                      > using precompiled package                                  
+old-time                           > using precompiled package                                    
+hashable                           > using precompiled package                                    
+primitive                          > using precompiled package                                    
+splitmix                           > using precompiled package                          
+syb                                > using precompiled package                          
+prettyprinter-ansi-terminal        > using precompiled package             
+tagged                             > using precompiled package                           
+case-insensitive                   > using precompiled package                                 
+data-fix                           > using precompiled package                                 
+random                             > using precompiled package                                 
+scientific                         > using precompiled package                              
+prettyprinter-compat-ansi-wl-pprint> using precompiled package                                     
+distributive                       > using precompiled package                                                   
+set-extra                          > using precompiled package                                                   
+text-short                         > using precompiled package                                                   
+QuickCheck                         > using precompiled package                                              
+attoparsec                         > using precompiled package                                                  
+ansi-wl-pprint                     > using precompiled package                                                  
+megaparsec                         > using precompiled package                                                  
+tf-random                          > using precompiled package                             
+th-abstraction                     > using precompiled package                           
+generic-random                     > using precompiled package                               
+quickcheck-io                      > using precompiled package                                   
+these                              > using precompiled package                                      
+neat-interpolation                 > using precompiled package                                      
+time-compat                        > using precompiled package                                     
+microlens-th                       > using precompiled package                                       
+transformers-compat                > using precompiled package                                       
+hspec-core                         > using precompiled package                                          
+strict                             > using precompiled package                                          
+unordered-containers               > using precompiled package                                        
+uuid-types                         > using precompiled package                                          
+comonad                            > using precompiled package                                          
+hspec                              > using precompiled package                                        
+microlens-mtl                      > using precompiled package                            
+charset                            > using precompiled package                              
+bifunctors                         > using precompiled package                              
+optparse-applicative               > using precompiled package                                     
+transformers-base                  > using precompiled package                                     
+parsers                            > using precompiled package                                         
+profunctors                        > using precompiled package                                         
+pretty-simple                      > using precompiled package                                          
+semigroupoids                      > using precompiled package                                          
+vector-stream                      > using precompiled package                                   
+free                               > using precompiled package                                     
+vector                             > using precompiled package
+recursion-schemes                  > using precompiled package
+inline-c                           > using precompiled package                                                  
+microlens-platform                 > using precompiled package                                                  
+quickcheck-instances               > using precompiled package                                                  
+llvm-hs-pure                       > configure                                                                  
+llvm-hs-pure                       > Configuring llvm-hs-pure-16.0.0...
+llvm-hs-pure                       > build with ghc-9.6.6      
+llvm-hs-pure                       > Preprocessing library for llvm-hs-pure-16.0.0..
+llvm-hs-pure                       > Building library for llvm-hs-pure-16.0.0..
+llvm-hs-pure                       > [ 1 of 33] Compiling LLVM.Prelude
+llvm-hs-pure                       > [ 2 of 33] Compiling LLVM.IRBuilder.Internal.SnocList
+llvm-hs-pure                       > [ 3 of 33] Compiling LLVM.AST.Visibility
+utf8-string                        > configure
+utf8-string                        > Configuring utf8-string-1.0.2...
+llvm-hs-pure                       > [ 4 of 33] Compiling LLVM.AST.ThreadLocalStorage
+llvm-hs-pure                       > [ 5 of 33] Compiling LLVM.AST.RMWOperation
+llvm-hs-pure                       > [ 6 of 33] Compiling LLVM.AST.Name
+utf8-string                        > build with ghc-9.6.6
+utf8-string                        > Preprocessing library for utf8-string-1.0.2..
+utf8-string                        > Building library for utf8-string-1.0.2..
+llvm-hs-pure                       > [ 7 of 33] Compiling LLVM.AST.Linkage
+utf8-string                        > [1 of 5] Compiling Codec.Binary.UTF8.String
+llvm-hs-pure                       > [ 8 of 33] Compiling LLVM.AST.IntegerPredicate
+utf8-string                        > [2 of 5] Compiling Codec.Binary.UTF8.Generic
+llvm-hs-pure                       > [ 9 of 33] Compiling LLVM.AST.FunctionAttribute
+utf8-string                        > [3 of 5] Compiling Data.ByteString.Lazy.UTF8
+llvm-hs-pure                       > [10 of 33] Compiling LLVM.AST.FloatingPointPredicate
+llvm-hs-pure                       > [11 of 33] Compiling LLVM.AST.Float
+llvm-hs-pure                       > [12 of 33] Compiling LLVM.AST.DLL
+llvm-hs-pure                       > [13 of 33] Compiling LLVM.AST.CallingConvention
+utf8-string                        > [4 of 5] Compiling Data.ByteString.UTF8
+utf8-string                        > [5 of 5] Compiling Data.String.UTF8
+llvm-hs-pure                       > [14 of 33] Compiling LLVM.AST.COMDAT
+llvm-hs-pure                       > [15 of 33] Compiling LLVM.AST.AddrSpace
+llvm-hs-pure                       > [16 of 33] Compiling LLVM.AST.Type
+utf8-string                        > copy/register
+utf8-string                        > Installing library in /home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/lib/x86_64-linux-ghc-9.6.6/utf8-string-1.0.2-4EKzqy1iFzL6FQeKmc9Leh
+utf8-string                        > Registering library for utf8-string-1.0.2..
+llvm-hs-pure                       > [17 of 33] Compiling LLVM.AST.ParameterAttribute
+llvm-hs-pure                       > [18 of 33] Compiling LLVM.AST.Attribute
+llvm-hs-pure                       > [19 of 33] Compiling LLVM.AST.InlineAssembly
+llvm-hs-pure                       > [20 of 33] Compiling LLVM.AST.DataLayout
+llvm-hs-pure                       > [21 of 33] Compiling LLVM.DataLayout
+llvm-hs-pure                       > [22 of 33] Compiling LLVM.AST.Constant
+llvm-hs-pure                       > [23 of 33] Compiling LLVM.AST.Operand
+llvm-hs-pure                       > [24 of 33] Compiling LLVM.AST.Instruction
+llvm-hs-pure                       > [25 of 33] Compiling LLVM.AST.Global
+llvm-hs-pure                       > [26 of 33] Compiling LLVM.AST
+llvm-hs-pure                       > [27 of 33] Compiling LLVM.IRBuilder.Monad
+llvm-hs-pure                       > [28 of 33] Compiling LLVM.IRBuilder.Module
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:17:1: warning: [-Wunused-imports]
+llvm-hs-pure                       >     The import of ‘Control.Applicative’ is redundant
+llvm-hs-pure                       >       except perhaps to import instances from ‘Control.Applicative’
+llvm-hs-pure                       >     To import instances alone, use: import Control.Applicative()
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 17 | import Control.Applicative
+llvm-hs-pure                       >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:39:1: warning: [-Wunused-imports]
+llvm-hs-pure                       >     The import of ‘Data.ByteString.Short’ is redundant
+llvm-hs-pure                       >       except perhaps to import instances from ‘Data.ByteString.Short’
+llvm-hs-pure                       >     To import instances alone, use: import Data.ByteString.Short()
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 39 | import Data.ByteString.Short (ShortByteString)
+llvm-hs-pure                       >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:41:1: warning: [-Wunused-imports]
+llvm-hs-pure                       >     The import of ‘Data.Data’ is redundant
+llvm-hs-pure                       >       except perhaps to import instances from ‘Data.Data’
+llvm-hs-pure                       >     To import instances alone, use: import Data.Data()
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 41 | import Data.Data
+llvm-hs-pure                       >    | ^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:42:1: warning: [-Wunused-imports]
+llvm-hs-pure                       >     The import of ‘Data.Foldable’ is redundant
+llvm-hs-pure                       >       except perhaps to import instances from ‘Data.Foldable’
+llvm-hs-pure                       >     To import instances alone, use: import Data.Foldable()
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 42 | import Data.Foldable
+llvm-hs-pure                       >    | ^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:47:1: warning: [-Wunused-imports]
+llvm-hs-pure                       >     The import of ‘GHC.Generics’ is redundant
+llvm-hs-pure                       >       except perhaps to import instances from ‘GHC.Generics’
+llvm-hs-pure                       >     To import instances alone, use: import GHC.Generics()
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 47 | import GHC.Generics(Generic)
+llvm-hs-pure                       >    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/IRBuilder/Module.hs:136:10: warning: [GHC-63397] [-Wname-shadowing]
+llvm-hs-pure                       >     This binding for ‘label’ shadows the existing binding
+llvm-hs-pure                       >       imported from ‘Control.Monad.Cont’ at src/LLVM/IRBuilder/Module.hs:18:1-25
+llvm-hs-pure                       >       (and originally defined in ‘Control.Monad.Cont.Class’)
+llvm-hs-pure                       >     |
+llvm-hs-pure                       > 136 | function label argtys retty body = do
+llvm-hs-pure                       >     |          ^^^^^
+llvm-hs-pure                       > [29 of 33] Compiling LLVM.AST.Typed
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/AST/Typed.hs:50:40: warning: [GHC-62161] [-Wincomplete-uni-patterns]
+llvm-hs-pure                       >     Pattern match(es) are non-exhaustive
+llvm-hs-pure                       >     In a pattern binding:
+llvm-hs-pure                       >         Patterns of type ‘Either String Type’ not matched: Right _
+llvm-hs-pure                       >    |
+llvm-hs-pure                       > 50 |                                    let (Left s) = head $ filter Either.isLeft mvtys
+llvm-hs-pure                       >    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > 
+llvm-hs-pure                       > /tmp/stack-19005b1a35cdc015/llvm-hs-pure-16.0.0/src/LLVM/AST/Typed.hs:182:13: warning: [GHC-62161] [-Wincomplete-uni-patterns]
+llvm-hs-pure                       >     Pattern match(es) are non-exhaustive
+llvm-hs-pure                       >     In a pattern binding:
+llvm-hs-pure                       >         Patterns of type ‘Either String Type’ not matched: Right _
+llvm-hs-pure                       >     |
+llvm-hs-pure                       > 182 |         let (Left s) = head $ filter Either.isLeft ptys
+llvm-hs-pure                       >     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+llvm-hs-pure                       > [30 of 33] Compiling LLVM.IRBuilder.Instruction
+llvm-hs-pure                       > [31 of 33] Compiling LLVM.IRBuilder.Constant
+llvm-hs-pure                       > [32 of 33] Compiling LLVM.IRBuilder
+llvm-hs-pure                       > [33 of 33] Compiling LLVM.Triple
+llvm-hs-pure                       > copy/register
+llvm-hs-pure                       > Installing library in /home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/lib/x86_64-linux-ghc-9.6.6/llvm-hs-pure-16.0.0-CeEZj8ZO7xWJkX3Ko5mmUy
+llvm-hs-pure                       > Registering library for llvm-hs-pure-16.0.0..
+llvm-hs-pretty                     > configure
+llvm-hs-pretty                     > Configuring llvm-hs-pretty-0.6.1.0...
+llvm-hs                            > configure
+llvm-hs                            > [1 of 3] Compiling Main             ( /tmp/stack-19005b1a35cdc015/llvm-hs-16.0.0/Setup.hs, /tmp/stack-19005b1a35cdc015/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/Main.o )
+llvm-hs                            > [2 of 3] Compiling StackSetupShim   ( /home/diego/.stack/setup-exe-src/setup-shim-DY68M0FN.hs, /tmp/stack-19005b1a35cdc015/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/StackSetupShim.o )
+llvm-hs                            > [3 of 3] Linking /tmp/stack-19005b1a35cdc015/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup
+llvm-hs-pretty                     > build with ghc-9.6.6
+llvm-hs-pretty                     > Preprocessing library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty                     > Building library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty                     > [1 of 2] Compiling LLVM.Pretty
+llvm-hs-pretty                     >   
+llvm-hs-pretty                     > /tmp/stack-19005b1a35cdc015/llvm-hs-pretty-0.6.1.0/src/LLVM/Pretty.hs:479:7: error: [GHC-08382]
+llvm-hs-pretty                     > [2 of 2] Compiling LLVM.Token
+llvm-hs-pretty                     >     Found a binding for the ‘@’ operator in a pattern position.
+llvm-hs-pretty                     >     Perhaps you meant an as-pattern, which must not be surrounded by whitespace
+llvm-hs-pretty                     >     |
+llvm-hs-pretty                     > 479 |     e @ Invoke {..} ->
+llvm-hs-pretty                     >     |       ^
+llvm-hs                            > Error: setup: The program 'llvm-config' version >=16.0 && <16.1 is required
+llvm-hs                            > but it could not be found.
+llvm-hs                            > 
+Progress 87/89         
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the following errors:
+       
+       [S-7011]
+       While building package llvm-hs-16.0.0 (scroll up to its section to see the error) using:
+       /tmp/stack-19005b1a35cdc015/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 configure --with-ghc=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-9.6.6 --with-ghc-pkg=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-pkg-9.6.6 --user --package-db=clear --package-db=global --package-db=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/pkgdb --libdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/lib --bindir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/bin --datadir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/share --libexecdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/libexec --sysconfdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/etc --docdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --htmldir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --haddockdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --dependency=Cabal=Cabal-3.10.3.0 --dependency=array=array-0.5.6.0 --dependency=attoparsec=attoparsec-0.14.4-Jtt09WeE83cJSoCxdHYrks --dependency=base=base-4.18.2.1 --dependency=bytestring=bytestring-0.11.5.3 --dependency=containers=containers-0.6.7 --dependency=exceptions=exceptions-0.10.7 --dependency=llvm-hs-pure=llvm-hs-pure-16.0.0-CeEZj8ZO7xWJkX3Ko5mmUy --dependency=mtl=mtl-2.3.1 --dependency=template-haskell=template-haskell-2.20.0.0 --dependency=transformers=transformers-0.6.1.0 --dependency=utf8-string=utf8-string-1.0.2-4EKzqy1iFzL6FQeKmc9Leh -f-debug -f-llvm-with-rtti --exact-configuration --ghc-option=-fhide-source-paths
+       Process exited with code: ExitFailure 1 
+       
+       [S-7011]
+       While building package llvm-hs-pretty-0.6.1.0 (scroll up to its section to see the error) using:
+       /home/diego/.stack/setup-exe-cache/x86_64-linux-tinfo6/Cabal-simple_DY68M0FN_3.10.3.0_ghc-9.6.6 --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 build --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs-pure (>=7 && <8) and using llvm-hs-pure-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grin's bounds on llvm-hs (>=7 && <8) and using llvm-hs-16.0.0.
+         Reason: allow-newer enabled.
+
+Warning: Ignoring grinIdris2's bounds on megaparsec (>=7 && <8) and using megaparsec-9.5.0.
+         Reason: allow-newer enabled.
+llvm-hs       > configure
+llvm-hs-pretty> configure
+llvm-hs-pretty> Configuring llvm-hs-pretty-0.6.1.0...
+llvm-hs       > [1 of 3] Compiling Main             ( /tmp/stack-fac29eb188439181/llvm-hs-16.0.0/Setup.hs, /tmp/stack-fac29eb188439181/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/Main.o )
+llvm-hs       > [2 of 3] Compiling StackSetupShim   ( /home/diego/.stack/setup-exe-src/setup-shim-DY68M0FN.hs, /tmp/stack-fac29eb188439181/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/StackSetupShim.o )
+llvm-hs       > [3 of 3] Linking /tmp/stack-fac29eb188439181/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup
+llvm-hs-pretty> build with ghc-9.6.6
+llvm-hs-pretty> Preprocessing library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty> Building library for llvm-hs-pretty-0.6.1.0..
+llvm-hs-pretty> [1 of 2] Compiling LLVM.Pretty
+llvm-hs-pretty> 
+llvm-hs-pretty> /tmp/stack-fac29eb188439181/llvm-hs-pretty-0.6.1.0/src/LLVM/Pretty.hs:479:7: error: [GHC-08382]
+llvm-hs-pretty> [2 of 2] Compiling LLVM.Token
+llvm-hs-pretty>     Found a binding for the ‘@’ operator in a pattern position.
+llvm-hs-pretty>     Perhaps you meant an as-pattern, which must not be surrounded by whitespace
+llvm-hs-pretty>     |
+llvm-hs-pretty> 479 |     e @ Invoke {..} ->
+llvm-hs-pretty>     |       ^
+llvm-hs       > Error: setup: The program 'llvm-config' version >=16.0 && <16.1 is required
+llvm-hs       > but it could not be found.
+llvm-hs       >      
+Progress 2/4         
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the following errors:
+       
+       [S-7011]
+       While building package llvm-hs-16.0.0 (scroll up to its section to see the error) using:
+       /tmp/stack-fac29eb188439181/llvm-hs-16.0.0/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6/setup/setup --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 configure --with-ghc=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-9.6.6 --with-ghc-pkg=/home/diego/.stack/programs/x86_64-linux/ghc-tinfo6-9.6.6/bin/ghc-pkg-9.6.6 --user --package-db=clear --package-db=global --package-db=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/pkgdb --libdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/lib --bindir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/bin --datadir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/share --libexecdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/libexec --sysconfdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/etc --docdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --htmldir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --haddockdir=/home/diego/.stack/snapshots/x86_64-linux-tinfo6/5fb8122fe84151c5ee956fdd6e7a4aa55b2eb2a939e50b989373221261662f20/9.6.6/doc/llvm-hs-16.0.0 --dependency=Cabal=Cabal-3.10.3.0 --dependency=array=array-0.5.6.0 --dependency=attoparsec=attoparsec-0.14.4-Jtt09WeE83cJSoCxdHYrks --dependency=base=base-4.18.2.1 --dependency=bytestring=bytestring-0.11.5.3 --dependency=containers=containers-0.6.7 --dependency=exceptions=exceptions-0.10.7 --dependency=llvm-hs-pure=llvm-hs-pure-16.0.0-CeEZj8ZO7xWJkX3Ko5mmUy --dependency=mtl=mtl-2.3.1 --dependency=template-haskell=template-haskell-2.20.0.0 --dependency=transformers=transformers-0.6.1.0 --dependency=utf8-string=utf8-string-1.0.2-4EKzqy1iFzL6FQeKmc9Leh --dependency=attoparsec:attoparsec-internal=attoparsec-0.14.4-8Z65lFE7ngAL1LPByCm0Jd-attoparsec-internal -f-debug -f-llvm-with-rtti --exact-configuration --ghc-option=-fhide-source-paths
+       Process exited with code: ExitFailure 1 
+       
+       [S-7011]
+       While building package llvm-hs-pretty-0.6.1.0 (scroll up to its section to see the error) using:
+       /home/diego/.stack/setup-exe-cache/x86_64-linux-tinfo6/Cabal-simple_DY68M0FN_3.10.3.0_ghc-9.6.6 --verbose=1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/ghc-9.6.6 build --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> 
+diego@localhost:~/Documents/Idris2-Grin/grinIdris2> stack install
+Warning: /home/diego/Documents/Idris2-Grin/grinIdris2/stack.yaml: Unrecognized field in PLArchive:github: branch
+Preparing to install GHC (tinfo6) to an isolated location. This will not interfere with any system-level installation.
+Downloaded ghc-tinfo6-9.2.7.                                      
+Installing GHC ...                                                                    
+
